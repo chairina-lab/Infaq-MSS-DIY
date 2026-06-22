@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
 
-const SCRIPT_URL = "GANTI_DENGAN_URL_ANDA";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzjhjVO67ogZzTOSfQ6dh_UU2OlTbhZV3HFB6HEUmLkPHIL05YyTlckKjn5Vcv1vConLQ/exec";
 
 export default function App() {
   const [page, setPage] = useState("home");
